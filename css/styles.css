@@ -1,0 +1,37 @@
+.title {
+  text-align: center;
+  margin: 200px;
+}
+
+.main {
+  margin: 200px;
+}
+
+.zigazou {
+  height: 200px;
+  width: auto;
+  border-radius: 100px;
+}
+
+h1 {
+  font-size: 60px;
+  color: blue;
+  margin: 50px;
+}
+h2 {
+  color: blue;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.contact {
+  font-size: 26px;
+  font-weight: bold;
+}
