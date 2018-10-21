@@ -40,30 +40,43 @@ a {
   font-weight: bold;
 }
 
-.circle {
-  width: 156px;
-  height: 156px;
-  display: block;
-  border-radius: 78px;
-  background: skyblue;
-  float: left;
+@media(max-width:1000px) {
+.container {
+  text-align: center;
 }
 
-.circle span {
-    width: 100%;
-    height: 90px;
-    line-height: 90px;
-    color: #000;
-    text-align: center;
-    display: block;
-    position: relative;
-    z-index: 1;
+.title {
+  margin: 150px;
 }
 
-.circle:hover {
-    background: #1e90ff;
+.main {
+  margin: 150px;
 }
 
-#works {
-  clear: left;
+h2 {
+  color: red;
+}
+}
+
+@media(max-width:670px) {
+.container {
+  text-align: center;
+}
+
+.title {
+  margin: 50px;
+}
+
+.main {
+  margin: 50px;
+}
+
+h2 {
+  color: green;
+}
+
+.contact {
+  font-size: 20px;
+  font-weight: bold;
+}
 }
