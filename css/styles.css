@@ -54,9 +54,6 @@ a {
   margin: 150px;
 }
 
-h2 {
-  color: red;
-}
 }
 
 @media(max-width:670px) {
@@ -65,15 +62,11 @@ h2 {
 }
 
 .title {
-  margin: 50px;
+  margin: 0px;
 }
 
 .main {
   margin: 50px;
-}
-
-h2 {
-  color: green;
 }
 
 .contact {
