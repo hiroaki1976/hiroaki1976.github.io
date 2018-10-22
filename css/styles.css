@@ -41,6 +41,34 @@ a {
   font-weight: bold;
 }
 
+#editorDiscription {
+  display: none;
+}
+
+#languagesDiscription {
+  display: none;
+}
+
+#osDiscription {
+  display: none;
+}
+
+#browserDiscription {
+  display: none;
+}
+
+#cryptocurrencyDiscription {
+  display: none;
+}
+
+#pcDiscription {
+  display: none;
+}
+
+#musicDiscription {
+  display: none;
+}
+
 @media(max-width:1000px) {
 .container {
   text-align: center;
