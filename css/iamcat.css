@@ -410,7 +410,7 @@ footer {
 
   /* cat0 */
   .cat0 {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -420,7 +420,7 @@ footer {
   }
 
   .cat0 p {
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'YuGothic',sans-serif;
     line-height: 2;
     margin-bottom: 50px;
@@ -429,54 +429,67 @@ footer {
   /* cat1 */
   .cat1 {
     width: 100%;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
   }
 
   .cat1-1 {
     display: block;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .cat1-1 img {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     float: none;
   }
 
   .cat1-1 p {
-    width: 100%;
+    font-size: 12px;
+    line-height: 1.5;
+    width: 90%;
+    margin: 20px auto 0 auto;
     float: none;
   }
 
   .cat1-2 {
     display: block;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .cat1-2 img {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     float: none;
   }
 
   .cat1-2 p {
-    width: 100%;
+    font-size: 12px;
+    line-height: 1.5;
+    width: 90%;
+    margin: 20px auto 0 auto;
     float: none;
   }
 
   .cat1-3 {
     display: block;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .cat1-3 img {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     float: none;
   }
 
   .cat1-3 p {
-    width: 100%;
+    font-size: 12px;
+    line-height: 1.5;
+    width: 90%;
+    margin: 20px auto 0 auto;
     float: none;
   }
 
+  /* cat2 */
   .cat2a {
     width: 100%;
   }
@@ -487,11 +500,15 @@ footer {
   }
 
   .cat2-1 img {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .cat2-1 p {
-    width: 100%;
+    font-size: 12px;
+    line-height: 1.5;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .cat2-2 {
@@ -500,18 +517,26 @@ footer {
   }
 
   .cat2-2 img {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .cat2-2 p {
-    width: 100%;
+    font-size: 12px;
+    line-height: 1.5;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .cat2-3-txt {
-    width: 300px;
-    height: 300px;
-    padding: 49px 37px 26px 37px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
   }
+
+  .cat2-3-txt p {
+    font-size: 6px;
+    line-height: 1.5;
 
   /* cat3 */
   .cat3 {
