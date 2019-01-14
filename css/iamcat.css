@@ -1,0 +1,392 @@
+/* reset css */
+html, body, h1, h2, h3, h4, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  vertical-align:baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article, header, footer, aside, figure, figcaption, nav, section {
+  display:block;
+}
+body {
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+ol, ul {
+  list-style: none;
+  list-style-type: none;
+}
+
+/* ナビゲーション */
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.nav {
+  width: 980px;
+  height: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.nav-title {
+  width: 49px;
+  height: 24px;
+  margin: 25px 0 26px 0;
+  float:left;
+}
+
+.nav-content {
+  margin: 27px 0 30px 0;
+  float:right;
+}
+
+.nav-content a {
+  margin-left: 48px;
+  text-decoration: none;
+}
+
+/* container */
+.container {
+  padding: 75px 0 0 0;
+}
+
+/* ヘッダー */
+.header-img {
+  position: relative;
+}
+
+.header-img img {
+  width: 100%;
+}
+
+.header-title {
+  position: absolute;
+  top: 46.2%;
+  left: 40.1%;
+}
+
+/* cat0 */
+.cat0 {
+  width: 980px;
+  margin: 0 auto 0 auto;
+}
+
+.cat0 h2 {
+  font-size: 40px;
+  font-family: 'YuGothic',sans-serif;
+  font-weight: bold;
+  margin: 100px 0 100px 0;
+}
+
+.cat0 p {
+  font-size: 24px;
+  font-family: 'YuGothic',sans-serif;
+  line-height: 45px;
+  margin-bottom: 100px;
+}
+
+/* cat1 */
+.cat-a {
+  background-color: #FCF6F2;
+}
+
+.cat1 {
+  width: 980px;
+  margin: 0 auto 0 auto;
+  padding: 100px 0 100px 0;
+}
+
+.cat1 h3 {
+  font-size: 40px;
+  font-family: 'YuGothic',sans-serif;
+  font-weight: bold;
+  margin: 0 0 100px 0;
+  text-align: center;
+}
+
+.cat1-1 {
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.cat1-1 img {
+  width: 450px;
+  height: 300px;
+  float: left;
+}
+
+.cat1-1 p {
+  font-size: 20px;
+  font-family: 'YuGothic',sans-serif;
+  line-height: 30px;
+  width: 450px;
+  height: 300px;
+  float: right;
+}
+
+.cat1-2 {
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+.cat1-2 img {
+  width: 450px;
+  height: 300px;
+  float: right;
+}
+
+.cat1-2 p {
+  font-size: 20px;
+  font-family: 'YuGothic',sans-serif;
+  line-height: 30px;
+  width: 450px;
+  height: 300px;
+  float: left;
+}
+
+.cat1-3 {
+  overflow: hidden;
+}
+
+.cat1-3 img {
+  width: 450px;
+  height: 300px;
+  float: left;
+}
+
+.cat1-3 p {
+  font-size: 20px;
+  font-family: 'YuGothic',sans-serif;
+  line-height: 30px;
+  width: 450px;
+  height: 300px;
+  float: right;
+}
+
+/* cat2 */
+.cat2a {
+  width: 980px;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+}
+
+.cat2a h3 {
+  font-size: 40px;
+  font-family: 'YuGothic',sans-serif;
+  font-weight: bold;
+  margin: 100px 0 100px 0;
+  text-align: center;
+}
+
+.cat2-1 {
+  float: left;
+  margin-bottom: 100px;
+}
+
+.cat2-1 img {
+  width: 450px;
+  height: 300px;
+  margin-bottom: 50.5px;
+}
+
+.cat2-1 p {
+  width: 450px;
+  height: 87px;
+  font-size: 20px;
+  font-family: 'YuGothic',sans-serif;
+  line-height: 30px;
+}
+
+.cat2-2 {
+  float:right;
+  margin-bottom: 100px;
+}
+
+.cat2-2 img {
+  width: 450px;
+  height: 300px;
+  margin-bottom: 50.5px;
+}
+
+.cat2-2 p {
+  width: 450px;
+  height: 87px;
+  font-size: 20px;
+  font-family: 'YuGothic',sans-serif;
+  line-height: 30px;
+}
+
+.cat2-3-img {
+  position: relative;
+}
+
+.cat2-3-img img {
+  width: 100%;
+}
+
+.cat2-3-txt {
+  position: absolute;
+  bottom: 26.2%;
+  right: 26.2%;
+  width: 600px;
+  height: 600px;
+  background-color: #ffffff;
+  opacity: 0.51;
+  padding: 98px 75px 52px 75px;
+}
+
+.cat2-3-txt p {
+  font-size: 20px;
+  font-family: 'YuGothic',sans-serif;
+  font-weight: bold;
+  line-height: 34px;
+}
+
+/* cat3 */
+.cat3 {
+  width: 980px;
+  margin: 0 auto 0 auto;
+  padding-bottom: 100px;
+}
+
+.cat3 h3 {
+  font-size: 40px;
+  font-family: 'YuGothic',sans-serif;
+  font-weight: bold;
+  margin: 100px 0 100px 0;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px #000000;
+}
+
+.info:first-of-type {
+  border-top: solid 1px #000000;
+}
+
+.info p {
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'YuGothic',sans-serif;
+  line-height: 40px;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.sintyaku {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #AD2727;
+  border: solid 1px #AD2727;
+  width: 84px;
+  height: 25px;
+  margin-left: 14px;
+}
+
+.sintyaku p {
+  font-weight: bold;
+}
+
+.info-txt {
+  width: 718px;
+  margin-left: 37px;
+  margin-right: 0;
+}
+
+.info-txt2 {
+  width: 718px;
+  margin-left: 37px;
+  margin-right: 0;
+}
+
+.info-txt2 p {
+  line-height: 24px;
+}
+
+/* 主人ゾーン */
+.cat-b {
+  background-color: #8E8E8E;
+}
+
+.syujins {
+  width: 980px;
+  margin: 0 auto 0 auto;
+  padding: 101px 0 100px 0;
+}
+
+.syujin {
+  display: inline-block;
+  width: 290px;
+  height: 189px;
+  margin-right: 54px;
+}
+
+.syujin:last-of-type {
+  width: 280px;
+  margin-right: 0;
+}
+
+.syujin h4 {
+  font-size: 16px;
+  font-family: 'YuGothic',sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: solid 1px #ffffff;
+  padding: 10px;
+}
+
+.syujin ul {
+  margin-top: 29px;
+  padding: 0 25px;
+  list-style: disc;
+}
+
+.syujin li {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'YuGothic',sans-serif;
+  color: #ffffff;
+  line-height: 27px;
+}
+
+/* footer */
+footer {
+  background-color: #6A6A6A;
+  height: 60px;
+}
+
+.title-copyright {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.footer-title {
+  float: left;
+  width: 49px;
+  height: 24px;
+  margin: 18px 0 17px 0;
+}
+
+.copyright {
+  float: right;
+  color: #ffffff;
+  margin: 22px 0 24px 0;
+}
