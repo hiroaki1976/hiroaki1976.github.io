@@ -543,6 +543,39 @@ footer {
     width: 100%;
   }
 
+  .cat3 h3 {
+    font-size: 20px;
+    margin: 50px 0 50px 0;
+    text-align: center;
+  }
+
+  .info {
+    display: block;
+    border-bottom: solid 1px #000000;
+  }
+
+  .info:first-of-type {
+    border-top: solid 1px #000000;
+  }
+
+  .info p {
+    display: block;
+    font-size: 12px;
+    line-height: 2.5;
+  }
+
+  .info-txt {
+    width: 90%;
+  }
+
+  .info-txt2 {
+    width: 90%;
+  }
+
+  .info-txt2 p {
+    line-height: 1.5;
+  }
+
   /* 主人ゾーン */
   .syujins {
     width: 100%;
@@ -550,8 +583,8 @@ footer {
 
   .syujin {
     display: block;
-    width: 80%;
-    margin: 0 auto 0 auto;
+    width: 90%;
+    margin: 40px auto;
   }
 
   /* フッター */
