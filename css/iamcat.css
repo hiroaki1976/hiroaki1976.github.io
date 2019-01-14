@@ -139,6 +139,7 @@ nav {
   margin-bottom: 100px;
   overflow: hidden;
 }
+
 .cat1-2 img {
   width: 450px;
   height: 300px;
@@ -389,4 +390,123 @@ footer {
   float: right;
   color: #ffffff;
   margin: 22px 0 24px 0;
+}
+
+/* -----------------------
+    メディアクエリ
+--------------------------*/
+@media (max-width:378px) {
+  /* cat0 */
+  .cat0 {
+    width: 100%;
+  }
+
+  /* cat1 */
+  .cat1 {
+    width: 100%;
+    padding: 100px 0 100px 0;
+  }
+
+  .cat1-1 {
+    display: block;
+    margin-bottom: 100px;
+  }
+
+  .cat1-1 img {
+    width: 100%;
+    float: none;
+  }
+
+  .cat1-1 p {
+    width: 100%;
+    float: none;
+  }
+
+  .cat1-2 {
+    display: block;
+    margin-bottom: 100px;
+  }
+
+  .cat1-2 img {
+    width: 100%;
+    float: none;
+  }
+
+  .cat1-2 p {
+    width: 100%;
+    float: none;
+  }
+
+  .cat1-3 {
+    display: block;
+    margin-bottom: 100px;
+  }
+
+  .cat1-3 img {
+    width: 100%;
+    float: none;
+  }
+
+  .cat1-3 p {
+    width: 100%;
+    float: none;
+  }
+
+  .cat2a {
+    width: 100%;
+  }
+
+  .cat2-1 {
+    float: none;
+    display: block;
+  }
+
+  .cat2-1 img {
+    width: 100%;
+  }
+
+  .cat2-1 p {
+    width: 100%;
+  }
+
+  .cat2-2 {
+    float: none;
+    display: block;
+  }
+
+  .cat2-2 img {
+    width: 100%;
+  }
+
+  .cat2-2 p {
+    width: 100%;
+  }
+
+  .cat2-3-txt {
+    width: 300px;
+    height: 300px;
+    padding: 49px 37px 26px 37px;
+  }
+
+  /* cat3 */
+  .cat3 {
+    width: 100%;
+  }
+
+  /* 主人ゾーン */
+  .syujins {
+    width: 100%;
+  }
+
+  .syujin {
+    display: block;
+    width: 80%;
+    margin: 0 auto 0 auto;
+  }
+
+  /* フッター */
+  .title-copyright {
+    width: 100%;
+  }
+
 }
