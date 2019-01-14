@@ -432,6 +432,12 @@ footer {
     padding: 50px 0 50px 0;
   }
 
+  .cat1 h3 {
+    font-size: 20px;
+    margin: 0 0 50px 0;
+    text-align: center;
+  }
+
   .cat1-1 {
     display: block;
     margin-bottom: 50px;
@@ -494,6 +500,11 @@ footer {
     width: 100%;
   }
 
+  .cat2a h3 {
+    font-size: 20px;
+    margin: 50px 0 50px 0;
+  }
+
   .cat2-1 {
     float: none;
     display: block;
@@ -551,11 +562,6 @@ footer {
 
   .info {
     display: block;
-    border-bottom: solid 1px #000000;
-  }
-
-  .info:first-of-type {
-    border-top: solid 1px #000000;
   }
 
   .info p {
