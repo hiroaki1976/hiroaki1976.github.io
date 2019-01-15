@@ -408,7 +408,7 @@ footer {
 
   /* ヘッダー */
   .header-title {
-    top: 25%;
+    top: 20%;
     left: 20%;
   }
 
@@ -444,10 +444,11 @@ footer {
 
   .cat1-1 {
     display: block;
-    margin-bottom: 0;
+    margin-bottom: -80px;
   }
 
   .cat1-1 img {
+    display: block;
     width: 80%;
     height: 66.6%;
     margin: 0 auto;
@@ -464,10 +465,11 @@ footer {
 
   .cat1-2 {
     display: block;
-    margin-bottom: 0;
+    margin-bottom: -80px;
   }
 
   .cat1-2 img {
+    display: block;
     width: 80%;
     height: 66.6%;
     margin: 0 auto;
@@ -484,10 +486,11 @@ footer {
 
   .cat1-3 {
     display: block;
-    margin-bottom: 0;
+    margin-bottom: -80px;
   }
 
   .cat1-3 img {
+    display: block;
     width: 80%;
     height: 66.6%;
     margin: 0 auto;
