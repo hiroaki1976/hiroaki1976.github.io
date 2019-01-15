@@ -518,7 +518,7 @@ footer {
   .cat2-1 {
     float: none;
     display: block;
-    margin-bottom: -50px;
+    margin-bottom: -10px;
   }
 
   .cat2-1 img {
@@ -538,7 +538,7 @@ footer {
   .cat2-2 {
     float: none;
     display: block;
-    margin-bottom: -50px;
+    margin-bottom: -10px;
   }
 
   .cat2-2 img {
@@ -558,13 +558,14 @@ footer {
   .cat2-3-txt {
     top: 0;
     left: 0;
-    width: 378px;
-    height: 242px;
-    padding: 10px;
+    width: 374px;
+    height: 240px;
+    padding: 5px;
+    opacity: 0.3;
   }
 
   .cat2-3-txt p {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.5;
   }
 
@@ -585,16 +586,21 @@ footer {
 
   .info p {
     display: block;
-    font-size: 12px;
-    line-height: 2.5;
+    font-size: 14px;
   }
 
   .info-txt {
-    width: 90%;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  info-txt p {
+    line-height: 1.5
   }
 
   .info-txt2 {
-    width: 90%;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .info-txt2 p {
