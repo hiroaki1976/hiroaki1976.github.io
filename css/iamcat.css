@@ -412,8 +412,8 @@ footer {
 
   /* ヘッダー */
   .header-title {
-    top: 40%;
-    left: 40%;
+    top: 35%;
+    left: 35%;
   }
 
   /* cat0 */
@@ -563,8 +563,8 @@ footer {
     top: 30px;
     left: 300px;
     width: 380px;
-    height: 400px;
-    padding: 30px;
+    height: 420px;
+    padding: 20px 30px;
     opacity: 0.3;
   }
 
@@ -626,7 +626,7 @@ footer {
 
   .syujin:last-of-type {
     width: 290px;
-    margin-right: 40px auto 0 auto;
+    margin: 40px auto 0 auto;
   }
 
   /* フッター */
@@ -874,7 +874,7 @@ footer {
   }
 
   .syujin:last-of-type {
-    width: 90px;
+    width: 90%;
     margin-right: 40px auto;
   }
 
